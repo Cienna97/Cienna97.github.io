@@ -5,7 +5,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    background-color: rgb(151, 140, 140);
+    background-color:forestgreen;
+    padding: 20px 35px;
 }
 h1 {
     font-size: 28px;
@@ -14,11 +15,7 @@ h1 {
     text-align: center;
     padding:20px;
     margin:0;
-}
-
-header h1 {
-    display:inline;
-
+    display: inline;
 }
 
 #main-bio {
@@ -45,12 +42,13 @@ a {
 
 header a {
     text-decoration: none;
-    color:sienna;
+    color:whitesmoke;
+    font-size: larger;
 }
 
 header nav {
     float: right;
-    margin: 7px 0;
+    margin: 5px 0;
 }
 
 header nav ul li {
@@ -61,4 +59,52 @@ header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background:turquoise;
+    width: 100%;
+    padding: 20px 35px;
+    position: absolute;
+    bottom: 0;
+}
+
+footer h2 {
+    display:inline;
+    color:rgb(151, 140, 140);
+    font-size: 18px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    line-height: l.5;
+    text-align: right;
+    }
+
+footer a {
+    color:royalblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    padding: 60px;
+} 
+
+.hero {
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=17f6cf121a&attid=0.1.1&permmsgid=msg-f:1708491175030161649&th=17b5c7abf59000f1&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8AZCjLQrmJEqv4Z8TG4a_L3qS4kxYtZSAq2pjJFB9GqTZn9NpM2qyFVpb4AsFma1ocx5_uU7PZrCGL8rPR8WIt64GtUAVhI1HWVPMULYfH78uvGXgB0A7xkdY&disp=emb");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
 }
