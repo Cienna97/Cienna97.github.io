@@ -9,7 +9,7 @@
 body {
     margin:0;
     padding:0;
-    background: #efeee7;
+    background:var(--white);
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
@@ -85,7 +85,7 @@ footer {
 
 footer h2 {
     display:inline;
-    color:rgb(151, 140, 140);
+    color:var(--white);
     font-size: 20px;
     margin: 0;
 }
@@ -122,14 +122,6 @@ section {
     text-align: center;
 }
 
-.intro h2 {
-    font-size: 55px;
-    color: skyblue;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid lavender;
-    display: inline-block;
-}
 
 .intro p {
     line-height: 1.7;
@@ -138,3 +130,55 @@ section {
     font-size: 20px;
     margin: 0 auto;
 }
+
+.progress {
+    text-align: center;
+    background: skyblue;
+}
+
+.progress div {
+    margin-bottom: 80px;
+}
+
+.progress img {
+    width: 15%;
+    margin: 10px 0;
+}
+
+.progress h3 {
+    color: skyblue;
+    font-size: 46px;
+    margin-top: 10px;
+}
+
+.progress p {
+    color: lavender;
+    font-size: 23px;
+}
+
+.progress span {
+    font-size: 38px;
+}
+
+.section-title {
+    font-size: 55px;
+    color: orange;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color:var(--sky-blue);
+}
+
+.secondary-border {
+    border-color:var(--white);
+}
+
+.info {
+    text-align: center;
+
+}
+
