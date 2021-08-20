@@ -1,3 +1,11 @@
+:root {
+    --orange: #FFA500;
+    --sky-blue: #87CEEB;
+    --lavendar: #E6E6FA;
+    --white: #FFFFFF;
+
+}
+
 body {
     margin:0;
     padding:0;
@@ -5,8 +13,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    background-color:forestgreen;
-    padding: 20px 35px;
+    background-color:orange;
+    padding: 30px 35px;
 }
 h1 {
     font-size: 28px;
@@ -18,10 +26,10 @@ h1 {
     display: inline;
 }
 
-#main-bio {
-    width:70%;
-    float:left;
+section a {
+    text-decoration: none;
 }
+
 #contact-info {
     width:30%;
     float:right;
@@ -67,17 +75,18 @@ header nav ul li a {
 }
 
 footer {
-    background:turquoise;
+    background:skyblue;
     width: 100%;
     padding: 20px 35px;
-    position: absolute;
+    position: relative;
     bottom: 0;
+    height: 100px;
 }
 
 footer h2 {
     display:inline;
     color:rgb(151, 140, 140);
-    font-size: 18px;
+    font-size: 20px;
     margin: 0;
 }
 
@@ -102,9 +111,30 @@ section {
 } 
 
 .hero {
-    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=17f6cf121a&attid=0.1.1&permmsgid=msg-f:1708491175030161649&th=17b5c7abf59000f1&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ8AZCjLQrmJEqv4Z8TG4a_L3qS4kxYtZSAq2pjJFB9GqTZn9NpM2qyFVpb4AsFma1ocx5_uU7PZrCGL8rPR8WIt64GtUAVhI1HWVPMULYfH78uvGXgB0A7xkdY&disp=emb");
-    height: 600px;
+    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=17f6cf121a&attid=0.1.1&permmsgid=msg-f:1708550850205197839&th=17b5fdf22b2c260f&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-9fIbW-S0u2mLjOXR4Sph6qLmW7g7DLkxnIbNIhB-rhkDJZkCJ_vXJ1_okYQHCu8A4j9wiX9bazWRGbtOE0deVhsOphKqxEKlNurTecVykLLWxkutYZuJir6E&disp=emb");
+    height: 400px;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 55px;
+    color: skyblue;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid lavender;
+    display: inline-block;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: orange;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
 }
