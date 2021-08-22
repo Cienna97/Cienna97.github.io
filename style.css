@@ -113,11 +113,11 @@ section {
 } 
 
 .hero {
-    background-image: url("file:///Users/banthamac/Downloads/AdobeStock_211109015%20(1).jpeg");
+    background-image: url("AdobeStock_211109015 (1).jpeg");
     background-repeat: no-repeat;
     position: bottom;
     background-size: cover;
-    height: 400px;
+    height: 500px;
 }
 
 .hero-form {
@@ -186,6 +186,14 @@ section {
     font-size: 38px;
 }
 
+.progress a {
+    text-decoration: none;
+    text-align: center;
+    color:var(--orange);
+    font-size: 40px;
+    
+}
+
 .section-title {
     font-size: 55px;
     color: orange;
@@ -210,6 +218,11 @@ section {
 .info ul {
     text-align: center;
     color:var(--orange);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 15px;
 }
 
 .info a {
@@ -218,24 +231,43 @@ section {
 
 .project1, .project2, .project3, .project4 {
     border:solid var(--white);
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    width: 500px; 
+
 }
 
-.project1, .project3 {
-    background-color: orange;
-    flex-shrink: 2;
-  
+
+.project1 {
+    display: flex;
+    height: 250px;
+    flex-grow: 3;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.project2, .project4 {
-    background-image: url("AdobeStock_211109015 (1).jpeg");
-
-    
+.project2, .project3, .project4 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: space-evenly;
 }
 
 .projects {
-    display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
+}
 
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 780px) {
+
+}
+
+@media screen and (max-width: 480px) {
+    
 }
 
 
