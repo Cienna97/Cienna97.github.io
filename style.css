@@ -232,9 +232,10 @@ section {
 .project1, .project2, .project3, .project4 {
     border:solid var(--white);
     display: flex;
-    justify-content:space-evenly;
+    justify-content:space-around;
     flex-wrap: wrap;
     width: 500px; 
+    align-items: center;
 
 }
 
