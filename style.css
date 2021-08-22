@@ -3,6 +3,7 @@
     --sky-blue: #87CEEB;
     --lavendar: #E6E6FA;
     --white: #FFFFFF;
+    --lightpink: #ffb6c1;
 
 }
 
@@ -13,21 +14,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    background-color:orange;
+    background-color:var(--orange);
     padding: 30px 35px;
 }
 h1 {
     font-size: 28px;
     font-weight: bold;
-    color: #FFF;
+    color:var(--white);
     text-align: center;
     padding:20px;
     margin:0;
     display: inline;
 }
 
-section a {
-    text-decoration: none;
+li {
+    list-style-type: none;
+    text-align: 1;
 }
 
 #contact-info {
@@ -113,8 +115,7 @@ section {
 .hero {
     background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=17f6cf121a&attid=0.1.1&permmsgid=msg-f:1708550850205197839&th=17b5fdf22b2c260f&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-9fIbW-S0u2mLjOXR4Sph6qLmW7g7DLkxnIbNIhB-rhkDJZkCJ_vXJ1_okYQHCu8A4j9wiX9bazWRGbtOE0deVhsOphKqxEKlNurTecVykLLWxkutYZuJir6E&disp=emb");
     height: 400px;
-    background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
     position: relative;
 }
 
@@ -179,6 +180,39 @@ section {
 
 .info {
     text-align: center;
+}
+
+.info ul {
+    text-align: center;
+    color:var(--orange);
+}
+
+.info a {
+    display: inline;
+}
+
+.project1, .project2, .project3, .project4 {
+    border:solid var(--white);
+}
+
+.project1, .project3 {
+    background-color: orange;
+}
+
+.project2, .project4 {
+    background-color: black;
+    flex-grow: 2;
+
+    
+}
+
+.projects {
+    display: flex;
+    justify-content:space-evenly;
+    flex-flow: column wrap;
+    flex-grow: inherit;
 
 }
+
+
 
