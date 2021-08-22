@@ -113,10 +113,24 @@ section {
 } 
 
 .hero {
-    background-image: url("https://mail.google.com/mail/u/0?ui=2&ik=17f6cf121a&attid=0.1.1&permmsgid=msg-f:1708550850205197839&th=17b5fdf22b2c260f&view=fimg&sz=s0-l75-ft&attbid=ANGjdJ-9fIbW-S0u2mLjOXR4Sph6qLmW7g7DLkxnIbNIhB-rhkDJZkCJ_vXJ1_okYQHCu8A4j9wiX9bazWRGbtOE0deVhsOphKqxEKlNurTecVykLLWxkutYZuJir6E&disp=emb");
-    height: 400px;
+    background-image: url("file:///Users/banthamac/Downloads/AdobeStock_211109015%20(1).jpeg");
     background-repeat: no-repeat;
-    position: relative;
+    position: bottom;
+    background-size: cover;
+    height: 400px;
+}
+
+.hero-form {
+    background-color:var(--lavendar) ;
+    color:var(--white);
+    width: 400px;
+    height: 100px;
+    padding: 40px;
+    border: solid 4px;
+    border-color:var(--white);
+    position: absolute;
+    text-align: center;
+
 }
 
 .intro {
@@ -130,10 +144,21 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    vertical-align: text-bottom;
+}
+
+.intro img {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    position: static;
+   
+
+    
 }
 
 .progress {
-    text-align: center;
+    text-align: center; 
     background: skyblue;
 }
 
@@ -213,6 +238,8 @@ section {
     flex-grow: inherit;
 
 }
+
+
 
 
 
