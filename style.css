@@ -180,18 +180,16 @@ section {
 
 .progress p {
     color: lavender;
-    font-size: 23px;
-}
-
-.progress span {
-    font-size: 38px;
+    font-size: 40px;
+    padding: 50px;
 }
 
 .progress a {
     text-decoration: none;
     text-align: center;
-    color:var(--orange);
+    color:var(--lavendar);
     font-size: 40px;
+    padding: 120px;
     
 }
 
@@ -224,55 +222,51 @@ section {
     flex-wrap: wrap;
     flex: 1;
     margin: 15px;
+    font-size: 30px;
 }
 
 .info a {
     display: inline;
 }
 
-.project1, .project2, .project3, .project4 {
-    border:solid var(--white);
-    display: flex;
-    justify-content:space-around;
-    flex-wrap: wrap;
-    width: 500px; 
-    align-items: center;
-
-}
-
 
 .project1 {
     display: flex;
-    height: 300px;
-    width: 1000px;
-    background-image: url("https://raw.githubusercontent.com/Cienna97/Cienna97.github.io/main/clouds.webp");
+    height: 450px;
+    width : 800px;
+    background-image: url("https://github.com/Cienna97/Cienna97.github.io/blob/main/coding.jpeg?raw=true");
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
  .project2, .project3, .project4 {
     display: flex;
-    flex-wrap: wrap;
-    height: 200px;
-    justify-content: space-evenly;
+    height: 250px;
+    width: 400px;
+    padding: 30px;
+
 }
 
-.projects {
+.project1, .project2, .project3, .project4 {
+    border:solid var(--white);
     display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
 
+    
 }
 
 .project2 {
-    background-image: url("https://github.com/Cienna97/Cienna97.github.io/blob/main/sprinkles.jpeg?raw=true");
+    background-image: url("https://github.com/Cienna97/Cienna97.github.io/blob/main/pink:purple.jpeg?raw=true");
 } 
 
 .project3 {
-    background-image: url("https://github.com/Cienna97/Cienna97.github.io/blob/main/mermaid.jpeg?raw=true");
+    background-image: url("https://github.com/Cienna97/Cienna97.github.io/blob/main/lines.jpeg?raw=true");
 }
 
 .project4 {
-    background-image: url("https://github.com/Cienna97/Cienna97.github.io/blob/main/dots%20.jpeg?raw=true");
+    background-image: url("https://github.com/Cienna97/Cienna97.github.io/blob/main/colorful%20coding.jpeg?raw=true");
 }
 
 @media screen and (max-width: 1200px) {
