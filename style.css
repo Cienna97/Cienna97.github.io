@@ -261,7 +261,18 @@ section {
     align-content: center;
     flex-wrap: wrap;
 
+}
 
+.project2 {
+    background-image: url("https://github.com/Cienna97/Cienna97.github.io/blob/main/sprinkles.jpeg?raw=true");
+} 
+
+.project3 {
+    background-image: url("https://github.com/Cienna97/Cienna97.github.io/blob/main/mermaid.jpeg?raw=true");
+}
+
+.project4 {
+    background-image: url("https://github.com/Cienna97/Cienna97.github.io/blob/main/dots%20.jpeg?raw=true");
 }
 
 @media screen and (max-width: 1200px) {
