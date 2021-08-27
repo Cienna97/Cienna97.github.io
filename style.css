@@ -113,7 +113,7 @@ section {
 } 
 
 .hero {
-    background-image: url("AdobeStock_211109015 (1).jpeg");
+    background-image: url("https://github.com/Cienna97/Cienna97.github.io/blob/main/AdobeStock_211109015.jpeg?raw=true");
     background-repeat: no-repeat;
     position: bottom;
     background-size: cover;
@@ -175,12 +175,12 @@ section {
 .progress h3 {
     color: skyblue;
     font-size: 46px;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .progress p {
     color: lavender;
-    font-size: 40px;
+    font-size: 30px;
     padding: 40px;
 }
 
@@ -218,9 +218,7 @@ section {
     text-align: center;
     color:var(--orange);
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    flex: 1;
+    justify-content: space-between
     margin: 15px;
     font-size: 22px;
 }
@@ -231,17 +229,16 @@ section {
 
 
 .project1 {
-    display: flex;
     height: 450px;
     width : 800px;
     background-image: url("https://github.com/Cienna97/Cienna97.github.io/blob/main/coding.jpeg?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 140px;
 
 }
 
  .project2, .project3, .project4 {
-    display: flex;
     height: 250px;
     width: 400px;
     padding: 30px;
@@ -250,20 +247,30 @@ section {
 
 .project1, .project2, .project3, .project4 {
     border:solid var(--white);
-    display: flex;
+    align-items: center;
     
 }
 
 .progress div {
-    display: flex;
     justify-content: space-evenly;
     align-content: column;
     flex-direction: row;
     flex-wrap: wrap;
 
-
    
 } 
+
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: column;
+    flex-direction: row;
+    margin: auto;
+
+
+
+
+}
 
 
 
