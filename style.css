@@ -218,8 +218,8 @@ section {
     text-align: center;
     color:var(--orange);
     display: flex;
-    justify-content: space-between
-    margin: 15px;
+    justify-content: space-between;
+   margin: 15px;
     font-size: 22px;
 }
 
